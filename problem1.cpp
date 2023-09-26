@@ -41,7 +41,7 @@ int main() {
   output2.close();
 
   // b = 3 case
-  auto f3 = f_factory(1.0, 2.0);
+  auto f3 = f_factory(1.0, 3.0);
   y = rka.integrate(f3, stop, h, 0.0, {2.0, 0.0});
 
   std::ofstream output3("brusselator-b3.csv");
